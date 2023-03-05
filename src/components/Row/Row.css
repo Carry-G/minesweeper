@@ -1,0 +1,8 @@
+.row {
+    display: flex;
+    height: 34px;
+}
+.row:last-child{
+     border-bottom: none;
+     height: 35px;
+ }

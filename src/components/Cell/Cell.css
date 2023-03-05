@@ -1,0 +1,20 @@
+.cell {
+    border-right: 1px solid #444;
+    width: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #444;
+}
+div .cell.open{
+    background-color: rgba(5, 75, 75, 0.42);
+}
+.cell.open:hover {
+    background-color: #d4d4d4;
+}
+.cell:hover {
+    background-color: #eeeeee;
+}
+.cell:last-child {
+    border-right: none;
+}
